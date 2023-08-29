@@ -1,0 +1,53 @@
+body {
+    background-color: lightsteelblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 200px;
+    background-image: url(https://e0.pxfuel.com/wallpapers/667/98/desktop-wallpaper-login-background-outlook-login.jpg);
+    background-repeat: none;
+
+
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#form{
+        margin-top: 20px;
+        display: grid;
+        gap: 10px;
+
+        background-color: rgb(37, 174, 243);
+        border-radius: 10px;
+        overflow: hidden;
+
+        margin: auto;
+
+        border: 3px solid black;
+
+        padding: 10px;
+
+        
+}
+
+button:hover{
+    background-color: rgb(25, 101, 163);
+}
+
+input:hover{
+    background-color: red;
+}
+
+#button{
+    border-radius: 10px;
+}
